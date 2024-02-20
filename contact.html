@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - MIT ACSC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        
+        section {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 30px black;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to MIT ACSC</h1>
+        <p>Enquiry Now</p>
+    </header>
+    <section>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="mobile">Mobile No:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="state">Select State:</label>
+            <select id="state" name="state" required>
+                <option value="graduate">Select State</option>
+                <option value="graduate">Maharashtra</option>
+                <option value="graduate">Gujarat</option>
+                <option value="graduate">Up</option>
+                <option value="graduate">Mp</option>
+                <option value="graduate">Keral</option>
+                <option value="graduate">Karnatak</option>
+                <option value="graduate">Panjab</option>
+                <option value="graduate">Bihar</option>
+                
+        <!-- Add options for states here -->
+      </select>
+
+            <label for="city">Select City:</label>
+            <select id="city" name="city" required>
+                <option value="graduate">Select City</option>
+                <option value="graduate">Parbhani</option>
+                <option value="graduate">Nanded</option>
+                <option value="graduate">Pune</option>
+                <option value="graduate">Mimbai</option>
+        <!-- Add options for cities here -->
+      </select>
+
+            <label for="level">Select Level Program:</label>
+            <select id="level" name="level" required>
+            <option value="undergraduate">Select Level Program</option>
+
+        <option value="undergraduate">Undergraduate</option>
+        <option value="graduate">Graduate</option>
+      </select>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+        <!-- Add options for courses here -->
+      </select>
+
+            <label for="agree">
+        <input type="checkbox" id="agree" name="agree" required>
+        I agree to the terms and conditions
+      </label>
+
+            <button type="submit">Enquiry Now</button>
+        </form>
+
+        <p>
+            <i>
+            ADDRESS
+            MAEER's
+            MIT Arts Commerce & Science College
+            Alandi Road, Pune 
+            Maharashtra, India
+            Email- principal@mitacsc.ac.in
+            Phone- +91-9272225946, +91-9272225947
+             
+            Admission Enquiry: +91-8055350000
+            </i>
+        </p>
+    </section>
+</body>
+
+</html>
